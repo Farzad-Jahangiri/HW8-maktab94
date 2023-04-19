@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+@media screen and (max-width: 720px){
+    .container{
+        background-color: #FCFCFC;
+        
+    }
+    .radius-right{
+        background-color: blue;
+        width: 200px;
+        height: 200px;
+        float: right;
+        border-radius: 0 0 0 500px;
+    }
+    .center{
+        /* display: flex; */
+        clear: both;
+        /* justify-content: center; */
+        /* align-items: center; */
+        /* text-align: center; */
+    }
+    .card{
+        /* display: flex; */
+        width: 20rem;
+        height: 15rem;
+        /* display: block; */
+        align-items: center;
+        border-radius: 20px;
+        padding: 1rem;
+        background-color: white;
+        box-shadow:20px 20px 50px 10px rgb(167, 167, 167);
+        margin: auto;
+        margin-top: 3rem;
+        text-align: center;
+    }
+    .radius-left{
+        background-color: blue;
+        width: 200px;
+        height: 200px;
+        /* float: right; */
+        border-radius: 0 500px 0 0;
+    }
+    .radius-number{
+        width: 3rem;
+        height: 2rem;
+        border-radius: 100%;
+        border: 0;
+        text-align: center;
+        padding-top: 1rem;
+        position: absolute;
+        margin: -3rem auto 1rem 8rem;
+        /* margin-top: -3rem; */
+        background-color: rgb(255, 255, 255);
+        box-shadow:1px 1px 1px 1px rgb(167, 167, 167);
+    }
+    .card img{
+        width: 2rem;
+        margin-top: 2rem;
+    }
+    .card h4{
+        margin-top: 1.5rem;
+    }
+    .card p{
+        margin-top: 1.5rem;
+    }
+}
+
+@media screen and (min-width:720px){
+    
+.container{
+    background-color: #FCFCFC;
+    
+}
+.radius-right{
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+    float: right;
+    border-radius: 0 0 0 500px;
+}
+.center{
+    display: flex;
+    clear: both;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.card{
+    width: 10rem;
+    height: 15rem;
+    display: inline;
+    align-items: center;
+    border-radius: 20px;
+    padding: 1rem;
+    margin: 2rem .5rem 2rem 2rem;
+    background-color: white;
+    box-shadow:20px 20px 50px 10px rgb(167, 167, 167);
+}
+.radius-left{
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+    /* float: right; */
+    border-radius: 0 500px 0 0;
+}
+.radius-number{
+    width: 3rem;
+    height: 2rem;
+    border-radius: 100%;
+    border: 0;
+    text-align: center;
+    padding-top: 1rem;
+    position: absolute;
+    margin-left: 3.5rem;
+    margin-top: -3rem;
+    background-color: rgb(255, 255, 255);
+    box-shadow:1px 1px 1px 1px rgb(167, 167, 167);
+}
+.card img{
+    width: 2rem;
+    margin-top: 2rem;
+}
+.card h4{
+    margin-top: 1.5rem;
+}
+.card p{
+    margin-top: 1.5rem;
+}
+}
+
+@media screen and (max-width: 480px){
+    .container{
+        background-color: #FCFCFC;
+        
+    }
+    .radius-right{
+        background-color: blue;
+        width: 200px;
+        height: 200px;
+        float: right;
+        border-radius: 0 0 0 500px;
+    }
+    .center{
+        /* display: flex; */
+        clear: both;
+        /* justify-content: center; */
+        /* align-items: center; */
+        /* text-align: center; */
+    }
+    .card{
+        /* display: flex; */
+        width: 15rem;
+        height: 15rem;
+        /* display: block; */
+        align-items: center;
+        border-radius: 20px;
+        padding: 1rem;
+        background-color: white;
+        box-shadow:20px 20px 50px 10px rgb(167, 167, 167);
+        margin: auto;
+        margin-top: 3rem;
+        text-align: center;
+    }
+    .radius-left{
+        background-color: blue;
+        width: 200px;
+        height: 200px;
+        /* float: right; */
+        border-radius: 0 500px 0 0;
+    }
+    .radius-number{
+        width: 3rem;
+        height: 2rem;
+        border-radius: 100%;
+        border: 0;
+        text-align: center;
+        padding-top: 1rem;
+        position: absolute;
+        margin: -3rem auto 1rem 5.8rem;
+        /* margin-top: -3rem; */
+        background-color: rgb(255, 255, 255);
+        box-shadow:1px 1px 1px 1px rgb(167, 167, 167);
+    }
+    .card img{
+        width: 2rem;
+        margin-top: 2rem;
+    }
+    .card h4{
+        margin-top: 1.5rem;
+    }
+    .card p{
+        margin-top: 1.5rem;
+    }
+}
