@@ -1,0 +1,251 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.8;
+}
+
+
+@media screen and (max-width: 720px){
+   
+    .header {
+        background-color: rgb(59, 59, 59);
+        color: #EAEAEA;
+        text-align: center;
+        height: 45%;
+        padding: 5rem;
+        
+    }
+    button {
+        background-color: rgb(59, 59, 59) ;
+        padding: 0.8rem;
+        color: #EAEAEA;
+        border-radius: 0.5rem;
+        margin-top: 1rem;
+    }
+    .header-2 {
+        background-color: #EAEAEA;
+        color: rgb(59, 59, 59);
+        text-align: center;
+        clear: both;
+    
+    }
+    .header-2 div div{
+        margin-bottom:.5rem;
+        clear: both !important;
+    }
+    .b-w{
+        background-color: #ffffff;
+    }
+    
+.main-1{
+    padding: 1rem;
+    text-align: center;
+    background-color: #333333;
+}
+.center{
+    text-align: center;
+}
+
+.main-1 span{
+    margin: 2rem .5rem 2rem .5rem;
+    width: 70%;
+    height: 17rem;
+    padding: 1rem;
+    color: #333333;
+    display: block;
+    margin: auto;
+    margin-top: .5rem;
+}
+.main-1 span h3{
+    margin-bottom: 2rem;
+}
+
+.main2{
+    /* display: flex */
+    justify-content: center;
+    align-items: center;
+    
+    /* background-color: #333333; */
+    text-align: center;
+    /* padding: 2rem 15rem 2rem 15rem; */
+}
+.main2 h2   {
+    margin-bottom: 2rem;
+}
+
+.footer-1 div{
+    /* display: inline; */
+    text-align: center;
+    margin: auto;
+    
+    width: 100%;
+    height: 10rem;
+    /* padding: 1.5rem; */
+}
+.bg-blue{
+    background-color: #2386C6;
+}
+.bg-dark{
+    background-color: #333333;
+}
+.color-G{
+    color: rgb(216, 214, 214);
+}
+
+.footer-2 div{
+    padding: .5rem 0 .5rem 0;
+    background-color: black;
+    display: inline;
+    text-align: center;
+    width: 50%;
+}
+
+.color-blue{
+    color: blue;
+}
+
+.m-5{
+    margin: 1px;
+}
+.left{
+    float: left;
+    padding-right: 2rem;
+}
+.right{
+    float: right;
+}
+.c-b{
+    clear: both;
+}
+
+}
+/* END */
+
+@media screen and (min-width: 720px){
+    
+.header {
+    background-color: rgb(59, 59, 59);
+    color: #EAEAEA;
+    text-align: center;
+    height: 45%;
+    padding: 5rem;
+    padding-left: 15rem;
+    padding-right: 15rem;
+}
+
+button {
+    background-color: rgb(59, 59, 59) ;
+    padding: 0.8rem;
+    color: #EAEAEA;
+    border-radius: 0.5rem;
+    margin-top: 1rem;
+}
+
+.header-2 {
+    background-color: #EAEAEA;
+    color: rgb(59, 59, 59);
+    text-align: center;
+    padding-left: 15rem;
+    padding-right: 15rem;
+
+}
+
+.para{
+    display: flex;
+}
+/* .para{
+    margin: rem;
+} */
+.left{
+    float: left;
+    padding-right: 2rem;
+}
+.right{
+    float: right;
+}
+.c-b{
+    clear: both;
+}
+
+.main-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background-color: #333333;
+}
+.b-w{
+    background-color: #ffffff;
+}
+
+.center{
+    text-align: center;
+}
+
+.main-1 span{
+    margin: 2rem .5rem 2rem .5rem;
+    width: 14rem;
+    height: 17rem;
+    padding: 1rem;
+    color: #333333;
+}
+.main-1 span h3{
+    margin-bottom: 2rem;
+}
+.main2{
+    /* display: flex */
+    justify-content: center;
+    align-items: center;
+    
+    /* background-color: #333333; */
+    text-align: center;
+    padding: 2rem 15rem 2rem 15rem;
+}
+.main2 h2   {
+    margin-bottom: 2rem;
+}
+
+/* .footer-1{
+    padding: 2rem;
+} */
+
+.footer-1 div{
+    display: inline;
+    text-align: center;
+    width: 50%;
+    height: 10rem;
+    padding: 1.5rem;
+}
+.bg-blue{
+    background-color: #2386C6;
+}
+.bg-dark{
+    background-color: #333333;
+}
+.color-G{
+    color: rgb(216, 214, 214);
+}
+
+
+.footer-2 div{
+    padding: 1rem 0 1rem 0;
+    background-color: black;
+    display: inline;
+    text-align: center;
+    width: 50%;
+}
+
+.color-blue{
+    color: blue;
+}
+
+.m-5{
+    margin: 1px;
+}
+}
+
